@@ -7,11 +7,24 @@
     <script src="components/loader.js"></script>
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
+    <script type="text/javascript" src="components/magro.js">
     </script>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+    <input type="text" name="insertnome" id="insertnome" placeholder="Inserir nome">
+
+    <input type="button" name="btnInserirInicio" value="Inserir no inicio" onclick="vetorunshift()">
+
+    <input type="button" name="btnInserirFinal" value="Inserir no final" onclick="vetorpush()">
+
+    <input type="button" name="btnRemoverInicio" value="Remover do inicio" onclick="vetorshift()">
+
+    <input type="button" name="btnRemoverFinal" value="Remover do final" onclick="vetorpop()">
+
+    <input type="button" name="btnExibir" value="Exibir" onclick="vetorexibir()">
+
+    <input type="button" name="btnPesquisar" value="Pesquisar" onclick="vetorpesquisar()">
+
+    <input type="button" name="btnListar" value="Listar" onclick="vetorlistar()">
 </body>
 </html>
