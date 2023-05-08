@@ -1,9 +1,12 @@
 /**/
 
+
+
 body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #E5E5E5;
 }
 
 input{
@@ -15,6 +18,19 @@ input{
 }
 
 #insertnome{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 30px;
+}
+
+.css-btn{
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    color: white;
+    background-color: #6358DC;
+}
+
+#lista{
+    font-size: 15px;
+    color: black;
 }

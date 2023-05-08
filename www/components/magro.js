@@ -41,6 +41,7 @@ function vetorpesquisar(){
 
 function vetorlistar(){
     for(let i = 0; i < nomes.length; i++){
-        alert(i+1 +"° " + nomes[i])
+        // alert(i+1 +"° " + nomes[i])
+        document.getElementById('lista').innerHTML += i+1 +"° " + nomes[i] +"<br>"
     }
 }
